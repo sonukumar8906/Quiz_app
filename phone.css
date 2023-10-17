@@ -1,0 +1,10 @@
+@media screen and (max-width: 878px) {
+  .quezApp {
+    overflow-x: scroll;
+  }
+  .option {
+    grid-template-columns: repeat(2, auto);
+    row-gap: 1rem;
+    margin-left: -48px;
+  }
+}

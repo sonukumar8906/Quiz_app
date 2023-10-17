@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.quezApp {
+  height: 60vh;
+  display: grid;
+  place-items: center;
+}
+
+.show{
+  margin-bottom: 1rem;
+  font-size: 20px;
+  background: #116b6b;
+  color: white;
+  font-weight: 600;
+  padding: 2px 10px;
+  border-radius: 5px;
+}
+
+.container {
+  height: 100vh;
+  background-color: #cbfff8;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  width:100%;
+}
+
+h2{
+  margin-bottom:1rem;
+  background: #ceacac;
+  padding: 3px 6px;
+  border-radius: 10px;
+}
+
+.container h3 {
+  color: #5e2c4d;
+  font-size: 1.5rem;
+  font-weight: 600;
+  background: #ffaf37;
+  padding: 2px 5px;
+  border-radius: 10px;
+}
+
+.option {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  row-gap: 3rem;
+  margin-top:1.5rem;
+}
+.answer {
+  width: 1.1rem;
+  margin-left: 2rem;
+  margin-right: 0.2rem;
+}
+
+#choose {
+  font-size: 1.2rem;
+  background: #92795c;
+  border-radius: 10px;
+  padding: 2px 5px;
+  color: wheat;
+}
+
+#submit {
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 0.2rem 0.8rem;
+  border: none;
+  color: bisque;
+  background-color: #512fcc;
+  border-radius: 7px;
+  margin-top:2rem;
+  cursor:pointer;
+}
+#submit:hover{
+  background:purple;
+}
+
+#score {
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 0.2rem 0.8rem;
+  border: none;
+  color: bisque;
+  background-color:#cc1d56;
+  border-radius: 7px;
+  margin-top:1rem;
+  text-align: center;
+  height: 5.2rem;
+}
+
+.btn{
+  display:none ;
+}
+
+.reload {
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 0.2rem 0.8rem;
+  border: none;
+  color: bisque;
+  background-color:rgb(85, 85, 255);
+  border-radius: 7px;
+  margin-top:0.5rem;
+  cursor: pointer;
+}
+
+#score h3{
+  color:rgb(3, 19, 33);
+  margin-top:0.2rem;
+}
